@@ -1,24 +1,27 @@
 <template>
   <NavBar />
-  <Jumbotron />
+  <JumbotronComponent />
   <CallToAction />
   <CardsBox />
+  <FooterComponent />
 </template>
 
 <script>
 
 import NavBar from './components/NavBar.vue'
-import Jumbotron from './components/JumBotron.vue'
+import JumbotronComponent from './components/JumbotronComponent.vue'
 import CallToAction from './components/CallToAction.vue'
 import CardsBox from './components/CardsBox.vue'
+import FooterComponent from './components/FooterComponent.vue'
 
 export default {
   name: 'App',
   components: {
     NavBar,
-    Jumbotron,
+    JumbotronComponent,
     CallToAction,
-    CardsBox
+    CardsBox,
+    FooterComponent
   }
 }
 </script>

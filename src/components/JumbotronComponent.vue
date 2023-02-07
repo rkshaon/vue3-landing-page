@@ -15,7 +15,7 @@
 
 <script>
 export default {
-  name: 'JumBotron',
+  name: 'JumbotronComponent',
   props: {
     msg: String
   }
