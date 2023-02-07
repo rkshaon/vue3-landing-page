@@ -1,14 +1,24 @@
 <template>
-  <NavBar msg="Welcome to Your Vue.js App"/>
+  <NavBar />
+  <Jumbotron />
+  <CallToAction />
+  <CardsBox />
 </template>
 
 <script>
+
 import NavBar from './components/NavBar.vue'
+import Jumbotron from './components/JumBotron.vue'
+import CallToAction from './components/CallToAction.vue'
+import CardsBox from './components/CardsBox.vue'
 
 export default {
   name: 'App',
   components: {
-    NavBar
+    NavBar,
+    Jumbotron,
+    CallToAction,
+    CardsBox
   }
 }
 </script>
